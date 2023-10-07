@@ -1,0 +1,82 @@
+/* register.css */
+
+.registerMain {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .regForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .regForm:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.2);
+  }
+  
+  .card-title h1 {
+    color: #008000;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .regForm button {
+    background-color: #4CAF50; /* Green color for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #006400;
+  }
+  
+  p.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .card-text p {
+    text-align: center;
+  }
+  
+  .card-text a {
+    color: #008000;
+    text-decoration: none;
+  }
+  
+  .card-text a:hover {
+    text-decoration: underline;
+  }
+  
+
+
